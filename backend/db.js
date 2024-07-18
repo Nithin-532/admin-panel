@@ -7,7 +7,7 @@ dotenv.config();
 main().catch(err => console.log(err));
 
 async function main() {
-  mongoose.connect(process.env.MANGO_DB_URL);
+  mongoose.connect(process.env.MANGO_URL);
 }
 
 const adminSchema = new mongoose.Schema({
