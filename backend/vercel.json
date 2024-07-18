@@ -14,7 +14,6 @@
   ],
   "env": {
     "MONGO_URL": "mongodb+srv://admin:DLcUVyS2ZmhzDf24@paytm.mdsr1ka.mongodb.net/adminpanel",
-    "JWT_SECRET": "hfdnw7721eun^$T*720isofh890",
-    "PORT": "3000"
+    "JWT_SECRET": "hfdnw7721eun^$T*720isofh890"
   }
 }
