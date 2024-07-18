@@ -14,4 +14,10 @@ app.use(express.json());
 app.use("/admin", adminRouter);
 app.use("/user", userRouter);
 
-app.listen(port);
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
+
+app.listen(port, () => {
+  console.log(`App is listening on PORT `, port);
+});
