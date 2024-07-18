@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "MONGO_DB_URL": "@MONGO_DB_URL",
+    "JWT_SECRET": "@JWT_SECRET",
+    "PORT": "3000"
+  }
+}
