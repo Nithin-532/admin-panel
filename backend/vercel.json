@@ -3,12 +3,18 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@vercel/node"
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
     }
   ],
   "env": {
-    "MONGO_URL": "@mango_url",
-    "JWT_SECRET": "@jwt_secret",
-    "PORT": "@port"
+    "MONGO_URL": "mongodb+srv://admin:DLcUVyS2ZmhzDf24@paytm.mdsr1ka.mongodb.net/adminpanel",
+    "JWT_SECRET": "hfdnw7721eun^$T*720isofh890",
+    "PORT": "3000"
   }
 }
